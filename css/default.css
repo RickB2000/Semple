@@ -1406,3 +1406,16 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .panel-body {
     margin: 0 -15px 0 -15px !important;
 }
+
+@media(min-width: 768px) {
+    .sortable.grid li {
+        width: 49%;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        float: right;    }
+    .sortable-first-col {
+        float: left !important;
+    }
+}
