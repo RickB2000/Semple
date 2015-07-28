@@ -48,7 +48,7 @@
         </div>
         <!--End Logo Header-->
         <!--Begin Navigation Bar-->
-        <div class = "navbar navbar-default navbar-static-top" style = "max-width: 100%;">
+        <div class = "navbar navbar-default navbar-static-top" id="navbar" style = "max-width: 100%;">
             <div class = "container" style = "padding-right:0px;">
                 <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
                     <span class = "icon-bar"></span>
@@ -221,6 +221,8 @@
         <script src="<# ui_tpl_assetfolderpath #>js/bootstrap-carousel.js"></script>
         <script src="<# ui_tpl_assetfolderpath #>js/typeahead.min.js"></script>
         <!-- <script type="text/javascript" src="<# ui_tpl_assetfolderpath #>/inc/init.js"></script> -->
+
+        <script src="<# ui_tpl_assetfolderpath #>js/application.js"></script>
         
         <script src="/etc/styles/Semple/js/jquery.js"></script>
         <script src="/etc/styles/Semple/js/bootstrap.js"></script>
